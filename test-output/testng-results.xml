@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-02T23:58:18 IST" name="Practice" finished-at="2023-10-02T23:58:50 IST" duration-ms="31791">
+    <groups>
+    </groups>
+    <test started-at="2023-10-02T23:58:18 IST" name="Test1" finished-at="2023-10-02T23:58:50 IST" duration-ms="31791">
+      <class name="Tests.OrderBooking">
+        <test-method signature="PaymentPage()[pri:1, instance:Tests.OrderBooking@9f116cc]" started-at="2023-10-02T23:58:28 IST" name="PaymentPage" finished-at="2023-10-02T23:58:50 IST" duration-ms="22419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage -->
+      </class> <!-- Tests.OrderBooking -->
+      <class name="Tests.UndostresVarification">
+        <test-method signature="VerifyHomePage()[pri:0, instance:Tests.UndostresVarification@3e58a80e]" started-at="2023-10-02T23:58:18 IST" name="VerifyHomePage" finished-at="2023-10-02T23:58:27 IST" duration-ms="9244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePage -->
+      </class> <!-- Tests.UndostresVarification -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Practice -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice">
+	<test name="Test1">
+
+
+		<!-- <parameter name="Username" value="user123@gmail.com"/> <parameter <class name="Tests.Mail_AOL" />
+			name="password" value="test@123"/> <parameter name="mobile_number" value="1234567899"/> 
+			<class name="com.qa.Undostres.UsdostresInitiation"/> 
+			<class name="Tests.Mail_AOL" />
+			-->
+
+		<classes>
+			<class name="Tests.UndostresVarification" />
+			<class name="Tests.OrderBooking" />
+			
+		
+		
+		
+		
+		
+
+
+		</classes>
+	</test><!-- Test -->
+</suite><!-- Test -->

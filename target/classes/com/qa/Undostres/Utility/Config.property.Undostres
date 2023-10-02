@@ -1,0 +1,116 @@
+url=https://www.makemytrip.com/flights/
+url1=https://mail.aol.com/
+close_signUp_Page=//span[@class='commonModal__close']
+FromCity=//input[@id='fromCity']
+From_City_Name=Delhi
+DelhiOption=//p[contains(text(),'New Delhi, India')]
+To_City=//input[@id='toCity']
+To_City_Name=Mumbai
+Mumbai_Option=//p[contains(text(),'Mumbai, India')]
+Search_Btn=//a[contains(text(),'Search')]
+
+SearchResult=//span[contains(text(),'Flights from')]
+DepartureFilter=(//div[@class='timeSlotsOuter'])[1]
+
+FlightRow=//div[@class='clusterContent']/div/div[2]
+
+Okay_Got_It_BTN=//button[contains(text(),'OKAY, GOT IT!')]
+
+
+************** AOL Mail *********************
+LoginIcon=//a[@alt='Login']
+Username=amitkumar2023
+Password=Asdf@123
+Input_usernam=//input[@id='login-username']
+NXT_Btn=//input[@id='login-signin']
+NXT_Btn2=//button[@id='login-signin']
+Input_pwd=//input[@id='login-passwd']
+Inbox_Welcome_Wind=//button[@data-test-id='themes-cue-close']
+Done=//button[contains(text(),'Done')]
+Logo=//a[@id='ybar-logo']
+Inbox=//a[@data-test-id="folder-list-item"]//span[contains(text(),'Inbox')]
+Compose_Btn=//a[contains(text(),'Compose')]
+Compose_lauout=//div[@data-test-id="compose"]
+Back=//button[@data-test-id="toolbar-back-to-list"]
+To=//input[@id='message-to-field']
+Subject=//input[@data-test-id="compose-subject"]
+Subject_LABLE=DEMCO
+Msg_body=//div[@data-test-id="rte"]
+Message1=Line one
+Message2=Line two
+Message3=Line three
+Attach_Btn=//div[@data-test-id="popover-container"]//span[contains(text(),'Attach')]
+MailIcon=(//a[@title='email link'])[2]
+send_btn=//button[@data-test-id="compose-send-button"]
+Bullet=//button[@data-test-id="icon-btn-list_unordered"]
+Bullet_Opt=(//button[@data-test-id="icon-btn-list_unordered"])[2]
+Attachment=//input[@title="Attach files"]
+Attached_File=//img[@data-test-id="attachment-thumbnail"]
+Download_Icon=//div[@data-test-id="download-icon"]
+Downloaded_File_Path=C:\\Users\\AMIT KUMAR\\Downloads\\INVESTMENT_MEDIUMS.png
+FlieSizeInBytes=357195
+
+Inbox_Msg_List=//ul[@role='list']/li
+
+******************************* Mail Content ********************
+Inbox_Header=//span[@data-test-id="message-group-subject-text"]
+Inbox_message=Line oneLine twoLine three
+Inbox_Msg_body=//ul[@dir='ltr']
+
+
+
+HolidayPackLink=//a[@class='makeFlex hrtlCenter column active']
+ID=//div[@class='makeFlex column']/h2[contains(text(),'International Destinations!')]
+Europe=//p[contains(text(),'Europe')]
+NxtBtn=//button[@fdprocessedid='t3km9i']
+PaymentPageURL=https://prueba.undostres.com.mx/payment.php
+Browser_Name=Chrome
+
+*************** Sample Test Data *****************************
+
+CellNum=8465433546
+Operator=Telcel 
+RecargeAmnt=10 dollar
+
+Card_number=4111111111111111
+month=11
+date=25
+cvv=111
+correo_electronico=test@test.com
+
+email=automationUDT1@gmail.com
+password=automationUDT123
+
+*********** Locators of Recarga celular page ******************
+
+Page_Title=UnDosTres - Recargas en l�nea Telcel, Movistar, AT&T, Unefon, Virgin, Bait, TeleV�a, PASE, Boletos de Cine, Pagos CFE
+
+Numero_de_celular1=//input[@name='mobile' and @data-qa='celular-mobile']
+Operador=//input[@name='operator' and @data-qa='celular-operator']
+Monto_de_Recarga=//input[@name='amount' and @data-qa='celular-amount']
+Siguiente=//button[contains(text(),'Siguiente') and @data-qa='celular-pay']
+telcel=//li[@data-id='1' and @data-name='telcel']
+telcel_menulist=//div[@class='suggestion suggestion-ul-container']/ul/li
+ten_dollor=//li[@class='category-suggest operator-plan' and @data-show='$10 (Recarga Saldo)']
+
+
+
+*********** Locators of Payment page ******************
+
+PaymentPageElements=//div[@class='active']
+Tarhet_DD=//div[@class='rotatingGlyContainer']//child::span[@id='cardGly']
+UserNuevaTarjeta=//label[@class='radio-custom-label']//child::a//child::span[text()='Usar nueva tarjeta']
+Card_Num=//input[@id='cardnumberunique']
+Month=//input[@data-qa='mes-input']
+Year=//input[@data-qa='expyear-input']
+CVV=//input[@data-qa='cvv-input']
+emailID=(//div[@class='field form-group']//child::input[@name='txtEmail'])[1]
+PaymentBtn=//button[@name='formsubmit' and @id='paylimit']
+
+
+******* POP UP  Locators *************************
+
+ID=//input[@id='usrname']
+PW=//input[@id='psw']
+NotRobort=//span[@role='checkbox']//child::div[1]
+Accesso=//button[@id='loginBtn']
